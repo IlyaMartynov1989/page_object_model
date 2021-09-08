@@ -7,3 +7,6 @@ class MainPageLocators():
 class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTRATION_FORM = (By.CSS_SELECTOR, "#register_form")
+
+class BasketLocators():
+    ADD_PRODUCT = (By.CSS_SELECTOR, "#add_to_basket_form > button")
